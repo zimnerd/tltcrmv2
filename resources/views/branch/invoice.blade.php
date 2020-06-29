@@ -69,7 +69,7 @@
                 <input id="imageloc" type="text" size="50" value="" /><br />
                 (max width: 540px, max height: 100px)
               </div> -->
-              <img id="image" style="width:100%; height:100%;" src="{{URL::asset('public/images/'. $logo['logo'])}}" alt="logo" />
+              <img id="image" style="width:100%; height:100%;" src="{{URL::asset('images/'. $logo['logo'])}}" alt="logo" />
             </div>
 
       		</div>
